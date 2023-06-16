@@ -28,7 +28,6 @@ export default function App() {
   return (
     <div style={containerStyle}>
       <div id="home">
-        <h1>Chris' Portfolio Page</h1>
         <div>
           <img src={myPic} style={{ width: "25%" }} alt="good looking man" />
         </div>
@@ -58,12 +57,6 @@ export default function App() {
             <img src={project4Image} alt="Project 4" style={projectImageStyle} />
           </a>
         </div>
-      </div>
-      <div id="contact">
-        <h1>Contact</h1>
-        <p>
-          {/* Add your contact information or contact form here */}
-        </p>
       </div>
     </div>
   );
