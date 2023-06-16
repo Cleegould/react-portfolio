@@ -37,13 +37,13 @@ export default function App() {
         </p>
       </div>
       <div id="about">
-        <h1>About Page</h1>
+        <h1>About</h1>
         <p>
           My name is Chris Gould. I am currently 40 years old and live in Grove City, Ohio. I have been married for almost 17 years and have been with my wife for 22. With her, I have 2 kids: a 13-year-old boy and a 10-year-old girl. I have 3 dogs: Ricky Bobby, Jackie Moon, and Ashley Schaffer. I am currently in Real Estate and also manage a construction company. I enjoy spending the small amount of spare time that I have with my family. My children are both in travel sports, and I get the opportunity to take them from place to place and enjoy watching them do what they love!
         </p>
       </div>
       <div id="projects">
-        <h1>Projects Page</h1>
+        <h1>Projects</h1>
         <div className="project-images">
           <a href="https://www.example1.com" target="_blank" rel="noopener noreferrer">
             <img src={project1Image} alt="Project 1" style={projectImageStyle} />
@@ -60,7 +60,7 @@ export default function App() {
         </div>
       </div>
       <div id="contact">
-        <h1>Contact Page</h1>
+        <h1>Contact</h1>
         <p>
           {/* Add your contact information or contact form here */}
         </p>
