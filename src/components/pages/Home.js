@@ -1,12 +1,12 @@
 import React from 'react';
-import myPic from "/Users/christopher/Desktop/20HW/react-portfolio/src/assets/IMG_2877.jpeg";
-import myBackground from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/modern-banner-with-abstract-low-poly-design_1048-14340.avif';
-import project1Image from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/Screenshot 2023-03-14 at 5.12.43 PM.png';
-import project2Image from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/Screenshot 2023-05-15 at 6.16.30 PM.png';
-import project3Image from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/Screenshot 2023-06-15 at 9.28.33 PM.png';
-import project4Image from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/Screenshot 2023-06-15 at 9.33.07 PM.png';
-import theDogs from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/IMG_1117.jpeg';
-import resume from '/Users/christopher/Desktop/20HW/react-portfolio/src/assets/Chris Gould Resume 2018.pdf';
+import myPic from '../assets/IMG_2877.jpeg';
+import myBackground from '../assets/modern-banner-with-abstract-low-poly-design_1048-14340.avif';
+import project1Image from '../assets/Screenshot 2023-03-14 at 5.12.43 PM.png';
+import project2Image from '../assets/Screenshot 2023-05-15 at 6.16.30 PM.png';
+import project3Image from '../assets/Screenshot 2023-06-15 at 9.28.33 PM.png';
+import project4Image from '../assets/Screenshot 2023-06-15 at 9.33.07 PM.png';
+import theDogs from '../assets/IMG_1117.jpeg';
+import resume from '../assets/Chris Gould Resume 2018.pdf';
 
 export default function App() {
   const containerStyle = {
