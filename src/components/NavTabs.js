@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   };
 
   return (
-    <div className="navigation">
+    <div className="navigation" style={{ position: 'fixed', top: 0, left: '50%', transform: 'translateX(-50%)' }}>
       <button
         onClick={() => scrollToSection('home')}
         className={currentPage === 'Home' ? 'active' : ''}
