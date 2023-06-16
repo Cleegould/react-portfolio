@@ -30,7 +30,7 @@ function Header() {
   };
 
   const linkStyle = {
-    margin: '0 10px', // Adjust the spacing between the links
+    margin: '0 10px',
   };
 
   return (
@@ -42,13 +42,11 @@ function Header() {
             <li><a href="#home" style={linkStyle}>Home</a></li>
             <li><a href="#about" style={linkStyle}>About</a></li>
             <li><a href="#projects" style={linkStyle}>Projects</a></li>
-            <li><a href="#contact" style={linkStyle}>Contact</a></li>
+            <li><a href="#resume" style={linkStyle}>Resume</a></li>
+            <li><a href="#footer" style={linkStyle}>Contact</a></li>
           </ul>
         </nav>
       </header>
-      <div>
-        {/* Your page content goes here */}
-      </div>
     </>
   );
 }
